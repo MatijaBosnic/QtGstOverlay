@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Pictures/CameraOverlay.png</file>
+        <file>Pictures/bubble.png</file>
+    </qresource>
+</RCC>
