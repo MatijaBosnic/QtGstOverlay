@@ -25,13 +25,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    void doMagic();
-    QGraphicsView *pictureOverlayGraphicsView;
-    QGraphicsScene *pictureOverlayScene;
-    QPixmap overlayPicturePixmap;
 
-
-    GstPlayer *player2;
+    GstPlayer *qgstPlayer;
+    QLabel *overlayLabel;
 };
 
 #endif // MAINWINDOW_H
